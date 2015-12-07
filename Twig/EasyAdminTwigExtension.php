@@ -254,6 +254,7 @@ class EasyAdminTwigExtension extends \Twig_Extension
      * author: Henrik Bjornskov <hb@peytz.dk>
      * copyright holder: (c) 2009 Fabien Potencier
      */
+
     public function truncateText(\Twig_Environment $env, $value, $length = 64, $preserve = false, $separator = '...')
     {
         if (function_exists('mb_get_info')) {
