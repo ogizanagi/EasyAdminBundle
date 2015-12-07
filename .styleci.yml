@@ -1,0 +1,10 @@
+preset: symfony
+
+disabled:
+  - unalign_double_arrow
+  - phpdoc_short_description
+
+finder:
+  exclude:
+    - vendor
+    - build
